@@ -189,11 +189,12 @@ The script prints the number of successfully processed images associated with ea
 
 ---
 
+
 ## 💻 How to Run
 
 ### 1. Configure the Paths
 
-Edit the configuration section in `label_by_gps.py`:
+Open `plot_labeling.py` and edit the configuration section:
 
 ```python
 input_folder = '/path/to/drone/images/'
@@ -207,13 +208,13 @@ output_folder = '/path/to/output_folder/'
 
 ### 2. Run the Script
 
-Execute the following command:
+Execute the following command from the directory containing `plot_labeling.py`:
 
 ```bash
-python label_by_gps.py
+python plot_labeling.py
 ```
 
-The script creates the output directory automatically if it does not already exist.
+The script automatically creates the output directory if it does not already exist.
 
 ---
 
